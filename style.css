@@ -1,0 +1,42 @@
+body {
+  /* padding-top: 5rem; */
+  background-color: #ffffff;
+}
+
+h1 {
+  font-size: 50px;
+  color: #ffffff;
+}
+
+.jumbotron {
+  background-color: #b6e0d0;
+  height: 30vh;
+  border-radius: 0;
+  margin-bottom: 1rem;
+}
+
+.carousel {
+  /* background-color: #facfc4; */
+  margin-bottom: 1rem;
+}
+
+.carousel-item {
+  height: 40rem;
+  /* background-color: #facfc4; */
+  /* .transition(.6s ease-in-out left); */
+}
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 40rem;
+}
+
+.carousel-control-next {
+  right: -1rem;
+}
+
+.carousel-control-prev {
+  left: -1rem;
+}
