@@ -16,10 +16,8 @@ h1 {
   margin-bottom: 1rem;
 }
 
-.carousel {
-  /* background-color: #facfc4; */
-  /* margin-bottom: 1rem; */
-}
+/* .carousel {
+} */
 
 .carousel-item {
   height: 45rem;
@@ -73,4 +71,12 @@ box-shadow: 10px 10px 47px -24px rgba(0,0,0,0.5);
 
 .bio-photo {
   width: 100%;
+}
+
+footer {
+  color: #ffffff;
+  padding: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 0rem;
+  background-color: #ffd3d3;
 }
