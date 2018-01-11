@@ -1,6 +1,7 @@
 body {
   /* padding-top: 5rem; */
   background-color: #ffffff;
+  overflow-x: hidden;
 }
 
 h1 {
@@ -10,18 +11,18 @@ h1 {
 
 .jumbotron {
   background-color: #b6e0d0;
-  height: 30vh;
+  height: 20vh;
   border-radius: 0;
   margin-bottom: 1rem;
 }
 
 .carousel {
   /* background-color: #facfc4; */
-  margin-bottom: 1rem;
+  /* margin-bottom: 1rem; */
 }
 
 .carousel-item {
-  height: 40rem;
+  height: 45rem;
   /* background-color: #facfc4; */
   /* .transition(.6s ease-in-out left); */
 }
@@ -30,7 +31,7 @@ h1 {
   top: 0;
   left: 0;
   min-width: 100%;
-  height: 40rem;
+  height: 45rem;
 }
 
 .carousel-control-next {
@@ -39,4 +40,37 @@ h1 {
 
 .carousel-control-prev {
   left: -1rem;
+}
+
+.row {
+
+}
+
+.col {
+  padding: 10px 0 0 0;
+  background-color: #fdfdfd;
+  margin-top: 8rem;
+  margin-bottom: 8rem;
+  /* margin-top:0rem; */
+  -webkit-box-shadow: 10px 10px 47px -24px rgba(0,0,0,0.5);
+-moz-box-shadow: 10px 10px 47px -24px rgba(0,0,0,0.5);
+box-shadow: 10px 10px 47px -24px rgba(0,0,0,0.5);
+}
+
+.bio-left {
+  margin-right: 8rem;
+  margin-left: 8rem;
+}
+
+.bio-right {
+  margin-right: 8rem;
+}
+
+.bg-bios { 
+  background-color: #c3d7e7; /* White */
+  color: #555555;
+}
+
+.bio-photo {
+  width: 100%;
 }
